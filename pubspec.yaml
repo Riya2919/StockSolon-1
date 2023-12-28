@@ -1,0 +1,62 @@
+name: main_app
+description: 'A new Flutter project.'
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  connectivity_plus: ^3.0.0
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  get: ^4.6.6
+  google_sign_in: ^6.2.1
+  flutter_login_facebook: ^1.9.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  provider: ^6.1.1
+  webview_flutter: ^2.0.10
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoBold.ttf
+          weight: 700
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
